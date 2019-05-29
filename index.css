@@ -1,0 +1,191 @@
+:root {
+    --white: #ffffff;
+    --dark-gray: #333333;
+    --green: #35CE97;
+    font-size: 16px;
+    --dark-light-grey: #4F4F4F;
+    --light-grey: #828282;
+    font-family: 'Lato', sans-serif;
+
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-gray {
+    color: #828282; 
+}
+
+.text-125px {
+    font-size: 1.25rem;
+}
+
+.box {
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+
+.signIn-info {
+    margin-bottom: 140px;
+}
+
+.signIn-info {
+    padding: 40px 60px;
+    margin-bottom: 0px;
+}
+
+.form-group{
+    margin-bottom: 24px;
+}
+
+.required p:first-child::after {
+    content: "*";
+    color: red;
+}
+
+input:not([type="checkbox"]) {
+    height: 54px;
+    width: -webkit-fill-available;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 130%;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+input[type="checkbox" i] {
+    margin: 3px 3px 3px 4px;
+}
+
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+input, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+input {
+    padding: 1px 0px;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+p.error-message {
+    font-weight: 500;
+    line-height: 130%;
+    color: #EB5757;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.signIn-option {
+    padding-bottom: 24px;
+}
+
+.signIn-option span {
+    padding-left: 7px;
+    color: #828282;
+    line-height: 130%;
+}
+
+.signIn-option .forgot {
+    color: #35CE97;
+}
+
+.signIn-info .submit {
+    padding: 0;
+}
+
+.button {
+    background: var(--green);
+    border: 1px solid var(--green);
+    box-sizing: border-box;
+    border-radius: 88px;
+    width: -webkit-fill-available;
+    padding: 16px;
+    font-size: 1.25rem;
+    color: #F2F2F2;
+    text-transform: capitalize;
+}
+
+div {
+    display: block;
+}
+
+button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+button {
+    -webkit-appearance: button;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
