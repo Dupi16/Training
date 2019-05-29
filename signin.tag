@@ -12,7 +12,7 @@
                 </div>
                 <div class="form-group required">
                     <p>Password</p>
-                    <input required name="email" id="email" placeholder="password xin" type="password">
+                    <input required name="password" id="password" placeholder="password xin" type="password">
                 </div>
                 <p class="error-message"></p>
                 <div class="signIn-option grid-spaceBetween no-margin"> 
