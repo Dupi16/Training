@@ -147,8 +147,8 @@ p {
 }
 
 .button {
-    background: var(--green);
-    border: 1px solid var(--green);
+    background: rgb(75, 135, 123);
+    border: 1px solid rgb(75, 135, 123);
     box-sizing: border-box;
     border-radius: 88px;
     width: -webkit-fill-available;
